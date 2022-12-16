@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SquareTrans">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Convertor.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.Convertor.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <EditText
+        android:id="@+id/ediInputMetr"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:ems="0"
+        android:inputType="numberDecimal"
+        android:maxLength="20"
+        android:digits="0123456789,.-"
+        android:minHeight="48dp"
+        android:text="Миллиметр&#179;" />
+
+    <EditText
+        android:id="@+id/ediInputMetr2"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="140dp"
+        android:ems="0"
+        android:inputType="numberDecimal"
+        android:maxLength="20"
+        android:digits="0123456789,.-"
+        android:minHeight="48dp"
+        android:text="Метр&#179;" />
+
+    <EditText
+        android:id="@+id/ediInputMetr3"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="210dp"
+        android:ems="0"
+        android:inputType="numberDecimal"
+        android:maxLength="20"
+        android:digits="0123456789,.-"
+        android:minHeight="48dp"
+        android:text="Километр&#179;" />
+
+    <EditText
+        android:id="@+id/ediInputMetr4"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp"
+        android:ems="0"
+        android:inputType="numberDecimal"
+        android:maxLength="20"
+        android:digits="0123456789,.-"
+        android:minHeight="48dp"
+        android:text="Миля&#179;" />
+
+</android.support.design.widget.CoordinatorLayout>
